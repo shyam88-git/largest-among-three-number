@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        function check(p,q,r){
+
+            if(p>q && q>r){
+
+                alert(`${p} is greater number`);
+            }
+            else if(q>p && q>r){
+
+                alert (`${q} is greater`);
+            }
+            else{
+
+                alert(`${r} is greater`);
+            }
+
+
+        }
+
+        let a=prompt("Enter first numer");
+        let b=prompt("Enter second number");
+        let c=prompt("Enter third number");
+        let x=check(a,b,c);
+        
+
+    </script>
+    
+</body>
+</html>
